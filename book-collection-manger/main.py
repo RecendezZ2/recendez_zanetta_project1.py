@@ -1,3 +1,10 @@
+# """
+# Student Name: Zanetta Recendez 
+# date: 10/04/2026
+# # Assigned Prompt: Find one function in your program that takes the collection list as a parameter and modifies it for example, your add or remove function. Explain what it means in Python for a list to be passed to a function: does the function receive a copy of the list, or a reference to the same list object? How do you know? Now find a function that takes a simple value, a string or integer, as a parameter and does not modify the original. Explain why the behavior is different.
+
+# Live demonstration required: In your add function, add a print statement immediately after the item is appended, printing the length of the list. Then add a second print statement in main() immediately after the add function returns, also printing the length of the same list. Predict whether the two lengths will match and explain why before you run. Run the program, add an item, and show both print statements firing. Explain what the output confirms about how Python passes lists to functions. Remove both print statements before ending your recording.
+# # """
 # # BOOK COLLECTION MANAGER
 # # Stores details about book and calculates inventory
 
@@ -17,7 +24,7 @@
 # Final print section with all values labeled
 # step 6
 #  use f-string	All five summary lines use f-strings
-# Planning table comment- top of the file and using descriptive varible names author_name, total_pages, copies_in_stock, price_per_book
+# Planning table comment- top of the file and using descriptive variable names author_name, total_pages, copies_in_stock, price_per_book
 #   
 # -----------------------------------
 
@@ -174,7 +181,7 @@ print("This program tracks an individual collection of books and  calculates the
 # copies_in_stock
 #price_per_book
 # total_inventory_value
-#use append to add a bnook to the collection
+#use append to add a book to the collection
 # Append new_book to book_collection
 # Print a success message
 # Print the inventory value of the new book
@@ -242,7 +249,7 @@ print("This program tracks an individual collection of books and  calculates the
 # function call main() to start the program
 
 #-------------------------------------------------------------------
-✅
+# ✅
 # 
 # -----------------------------------
 # Book Collection Manager
@@ -295,7 +302,7 @@ def get_positive_integer(prompt):
 
 #  if else  statement checks if the value is smaller then or equal to 0 print this else or otherwise stop the code and return the value
             if value <= 0:
-                print("Please enter a number that is 0 or greater.")
+                print("Please enter a number that is greater then 0.")
             else:
                 return value
 # a ValueError happens when argument passed into the function is the correct data type but an invalid value for example if Im putting a test string of letters when there should be a number that is greater then 0
@@ -304,19 +311,19 @@ def get_positive_integer(prompt):
 
 
 
-#  defining a function with a prompt as the  perameter will show to the user 
+#  defining a function with a prompt as the  parameter will show to the user 
 
 def get_positive_price(prompt):
     #while True is an infinity loop that will run until its told stop its break: is used to make the loop stop and run the next line of code
     while True:
-        #  #try: starting point of handling errors straightly maken sure it does not crash. it tries running the code, but if a specific error comes up it wont  crash instead it moves on to the next best line of code.its always has at least one except: block, building a solid structure known as a try-except block here python will  catch the error  and moves on to the next working line of code all while not crashing 
+        #  #try: starting point of handling errors straightly making sure it does not crash. it tries running the code, but if a specific error comes up it wont  crash instead it moves on to the next best line of code.its always has at least one except: block, building a solid structure known as a try-except block here python will  catch the error  and moves on to the next working line of code all while not crashing 
         try: 
             
             price = float(input(prompt))
 
 
             if price < 0:
-                print("Please enter a price that is 0 or greater.")
+                print("Please enter a price that is greater then 0.")
             else:
                 return price
 
@@ -440,11 +447,11 @@ def main():
     book_collection = []
 
 
-    print("THE Amazing Futuristic Book Collection Manager!")
-    print("This program tracks books and calculates total inventory value.")
+    print("Amazing Futuristic Book Collection Manager!")
+    print("Upgrade your life and save time with the newest book collection technology")
 
 
-    # The menu keeps running until the user chooses option 5.
+    # while loop  menu keeps running until the user chooses option 5 
     while True:
         choice = show_menu()
 
