@@ -52,13 +52,13 @@ print("This program tracks an individual collection of books and  calculates the
 
 
 
-# # -setting  a variable for author name, total pages, copies in stock and the price per book using the input function so users can write their dynamic response 
-# # Each input() returns a string, making it able to  convert # inputs to int or a float
+#  -setting  a variable for author name, total pages, copies in stock and the price per book using the input function so users can write their dynamic response 
+#  Each input() returns a string, making it able to  convert # inputs to int or a float
 # author_name = input("May I ask you what the Authors name?")
 
 
-# #assigning the price per book multiplied by the copies in stock to get the l inventory value
-# # Multiply price per book by number of copies to get total inventory value
+# assigning the price per book multiplied by the copies in stock to get the l inventory value
+#  Multiply price per book by number of copies to get total inventory value
 # total_inventory_value = price_per_book * copies_in_stock
 
 
@@ -316,7 +316,7 @@ def get_positive_integer(prompt):
 def get_positive_price(prompt):
     #while True is an infinity loop that will run until its told stop its break: is used to make the loop stop and run the next line of code
     while True:
-        #  #try: starting point of handling errors straightly making sure it does not crash. it tries running the code, but if a specific error comes up it wont  crash instead it moves on to the next best line of code.its always has at least one except: block, building a solid structure known as a try-except block here python will  catch the error  and moves on to the next working line of code all while not crashing 
+        #  #try: starting point of handling errors straightly  making sure it does not crash. it tries running the code, but if a specific error comes up it wont  crash instead it moves on to the next best line of code.its always has at least one except: block, building a solid structure known as a try-except block here python will  catch the error  and moves on to the next working line of code all while not crashing 
         try: 
             
             price = float(input(prompt))
