@@ -1,6 +1,15 @@
-# """
+# # """
+# my_numbers = [10, 20, 30, 40, 50]
+
+# for i in range(4):
+#     my_numbers.insert(i, my_numbers[-1])
+
+# print(my_numbers)
+
+
+
 # Student Name: Zanetta Recendez 
-# date: 10/04/2026
+# date: 10/09/2026
 # # Assigned Prompt: Find one function in your program that takes the collection list as a parameter and modifies it for example, your add or remove function. Explain what it means in Python for a list to be passed to a function: does the function receive a copy of the list, or a reference to the same list object? How do you know? Now find a function that takes a simple value, a string or integer, as a parameter and does not modify the original. Explain why the behavior is different.
 
 # Live demonstration required: In your add function, add a print statement immediately after the item is appended, printing the length of the list. Then add a second print statement in main() immediately after the add function returns, also printing the length of the same list. Predict whether the two lengths will match and explain why before you run. Run the program, add an item, and show both print statements firing. Explain what the output confirms about how Python passes lists to functions. Remove both print statements before ending your recording.
@@ -44,7 +53,7 @@
 
 
 
-# -print() fuction passes the string argument to show user the Welcome/display message
+# -print() function passes the string argument to show user the Welcome/display message
 #
 print("Welcome to Zanetta's Book Collection Manager!")
 print("When your ready to start the compilers handy dandy robot will help you along the way")
@@ -71,7 +80,7 @@ print("This program tracks an individual collection of books and  calculates the
 # print("==================================")
 
 
-# I had confused my self with this project. I was not understanding what python was or how it worked. It didn't register to me that its just the key fundamentals written with different syntax and its not a frontend language. Same fundamentals different syntax but both have static and dynamic codes that grabs data or interacts with the user. Defining a function/code block requires and : in Py and ; in Js. Basically python is all code alot of backend. 
+# I had confused my self with this project. I was not understanding what python was or how it worked. It didn't register to me that its just the key fundamentals written with different syntax and its not a frontend language. Same fundamentals different syntax but both have static and dynamic codes that grabs data or interacts with the user. Defining a function/code block requires and : in Py and ; in Js. Basically python is all code a lot of backend. 
 
 
 # I am commenting out the code i have already written so I can rebuild this project
@@ -90,7 +99,7 @@ print("This program tracks an individual collection of books and  calculates the
 # step one
 # start
 # 
-# create an empty list called book-collection a book disctionary list
+# create an empty list called book-collection a book dictionary list
 # render "welcome to worlds best book collection ever"
 # render "this program will keep you in a trance by its wonderful algorithm that tracks books/calculates  total inventory"
 #its going to run like an infinity loop REPEAT FOREVER duh duh duhn...
@@ -125,8 +134,8 @@ print("This program tracks an individual collection of books and  calculates the
 #  ❌✅
 #step 3
 #create a function that will show a valid decimal price greater then zero 
-# use a while loop - check condition if true exectue keep running the code until its no true then you stop 
-# book_collection = [] this is a global and i dont need it because It in my main function
+# use a while loop - check condition if true execute keep running the code until its no true then you stop 
+# book_collection = [] this is a global and i don't need it because It in my main function
 #  Use try/except so the program does not crash
 #  Ask the user for input using the prompt argument
 # Convert the input into an integer using int()
